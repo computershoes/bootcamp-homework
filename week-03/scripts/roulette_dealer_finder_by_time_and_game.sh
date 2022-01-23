@@ -3,19 +3,16 @@
 # Blackjack
 Blackjack()
 {
-#	grep "$1" $2_Dealer_schedule |
 	awk -F" " '{print $1 " " $2 " " $3 " " $4}'
 }
 # Roulette
 Roulette()
 {
-#	grep "$1" $2_Dealer_schedule |
 	awk -F" " '{print $1 " " $2 " " $5 " " $6}'
 }
 # Texas Hold Em
 Texas_Hold_Em()
 {
-#	grep "$1" $2_Dealer_schedule |
 	awk -F" " '{print $1 " " $2 " " $7 " " $8}'
 }
 
