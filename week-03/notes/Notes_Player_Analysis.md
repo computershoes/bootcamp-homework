@@ -17,4 +17,4 @@ Date | Time | Player Name
 0315 | 08:00:00 AM | Mylie Schmidt
 0315 | 02:00:00 PM | Mylie Schmidt
 
-**Total Times Played:** 13
+Total Times Played: 13
