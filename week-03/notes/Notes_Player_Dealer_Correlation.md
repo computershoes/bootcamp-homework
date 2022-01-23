@@ -1,5 +1,5 @@
 **Player/Dealer Correlation Notes**
-#
+---
 * By analyzing the player data, I found that a player named Mylie Schmidt was present for all 13 roulette losses the week of March 10.
 
 * By analyzing the dealer schedules, I found that a dealer named Billy Jones was present for all 13 roulette losses the same week.
