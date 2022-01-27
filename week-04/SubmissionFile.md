@@ -92,8 +92,8 @@ Save and submit the completed file for your homework submission.
 
 4. Provide a report from the Lynis output on what can be done to harden the system.
 
-    - Screenshot of report output:
-	
+    - Screenshot of report output:	
+![](https://github.com/spodw/bootcamp-homework/blob/main/week-04/.img/lynis-report.png)
 
 ### Bonus
 1. Command to install chkrootkit:
@@ -107,6 +107,7 @@ Save and submit the completed file for your homework submission.
 
 4. Provide a report from the chrootkit output on what can be done to harden the system.
     - Screenshot of end of sample output:
+![](https://github.com/spodw/bootcamp-homework/blob/main/week-04/.img/chkrootkit-report.png)
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
