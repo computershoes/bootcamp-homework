@@ -16,5 +16,5 @@
 ![](https://github.com/spodw/bootcamp-homework/blob/main/week-03/.img/step-4-2-script-test.png "Step 4-2")
 #
 #### Bonus (Step 5):
-![](https://github.com/spodw/bootcamp-homework/blob/main/week-03/.img/step-5-1--script.png "Step 5-1")
-![](https://github.com/spodw/bootcamp-homework/blob/main/week-03/.img/step-5-2--script-test.png "Step 5-2")
+![](https://github.com/spodw/bootcamp-homework/blob/main/week-03/.img/step-5-1-script.png "Step 5-1")
+![](https://github.com/spodw/bootcamp-homework/blob/main/week-03/.img/step-5-2-script-test.png "Step 5-2")
