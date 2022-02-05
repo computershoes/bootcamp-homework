@@ -64,11 +64,11 @@ df -h > $backup/freedisk/free_disk.txt
 
 **Optional**
 - Commands to test the script and confirm its execution:
-sudo ./system.sh
+`sudo ./system.sh`
 
 **Bonus**
 - Command to copy `system` to system-wide cron directory:
-cp system.sh /etc/cron.weekly
+`cp system.sh /etc/cron.weekly`
 
 ---
 
@@ -82,13 +82,13 @@ cp system.sh /etc/cron.weekly
 
     ```bash
     /var/log/auth.log {
-weekly
-rotate 7
-notifempty
-compress
-delaycompress
-missingok
-}
+    weekly
+    rotate 7
+    notifempty
+    compress
+    delaycompress
+    missingok
+    }
     ```
 ---
 
