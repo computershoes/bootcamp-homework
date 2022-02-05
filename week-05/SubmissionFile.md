@@ -56,10 +56,11 @@ lsof > $backup/openlist/open_list.txt
 
 # Free disk space to a free_disk.txt file
 df -h > $backup/freedisk/free_disk.txt
+```
 
 3. Command to make the `system.sh` script executable:
-chmod +x system.sh
-```
+`chmod +x system.sh`
+
 
 **Optional**
 - Commands to test the script and confirm its execution:
