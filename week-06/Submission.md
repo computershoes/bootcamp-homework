@@ -58,9 +58,9 @@ Save and submit the completed file for your homework submission.
 2. Escalate your privileges to the `root` user. Use John to crack the entire `/etc/shadow` file:
     ```bash
     sudo -s
-    unshadow /etc/passwd /etc/shadow > /tmp/pfj`
-    john /tmp/pfj`
-    john --show /tmp/pfj`
+    unshadow /etc/passwd /etc/shadow > /tmp/pfj
+    john /tmp/pfj
+    john --show /tmp/pfj
     ````
 
 ---
