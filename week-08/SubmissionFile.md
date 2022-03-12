@@ -11,19 +11,19 @@ Phase 2
 - Ran `sudo nmap -sS 167.172.144.11`
 - Results:
 
-Not shown: 989 filtered ports
-PORT     STATE  SERVICE
-22/tcp   open   ssh
-25/tcp   closed smtp
-80/tcp   closed http
-110/tcp  closed pop3
-256/tcp  closed fw1-secureremote
-554/tcp  closed rtsp
-1025/tcp closed NFS-or-IIS
-1723/tcp closed pptp
-3306/tcp closed mysql
-3389/tcp closed ms-wbt-server
-8080/tcp closed http-proxy
+Not shown: 989 filtered ports  
+PORT     STATE  SERVICE  
+22/tcp   open   ssh  
+25/tcp   closed smtp  
+80/tcp   closed http  
+110/tcp  closed pop3  
+256/tcp  closed fw1-secureremote  
+554/tcp  closed rtsp  
+1025/tcp closed NFS-or-IIS  
+1723/tcp closed pptp  
+3306/tcp closed mysql  
+3389/tcp closed ms-wbt-server  
+8080/tcp closed http-proxy  
 
 - Discovered Port 22 is open.
 - This is a vulnerability because with port 22 (SSH) open, anoyone can attempt to make a connection which creates an attack vector.
