@@ -1,6 +1,6 @@
-##Week 9 Homework
+## Week 9 Homework
   
-####Mission 1
+#### Mission 1
 `nslookup -type=mx starwars.com`
   
 starwars.com	mail exchanger = 1 aspmx.l.google.com.  
@@ -32,7 +32,7 @@ Corrected DNS record:
   
 v=spf1 a mx mx:smtp.secureserver.net include:aspmx.googlemail.com ip4:45.23.176.21  
   
-####Mission 3
+#### Mission 3
   
 CNAME record of www.theforce.net:  
 www.theforce.net	canonical name = theforce.net  
@@ -45,7 +45,7 @@ Corrected DNS record:
   
 resistance.theforce.net        canonical name = theforce.net  
   
-####Mission 4
+#### Mission 4
   
 - DNS rocord type: `NS`
 - I would fix this issue by adding the backup server to the `NS` record.  
@@ -54,19 +54,19 @@ Corrected DNS record:
   
 princessleia.site	nameserver = ns2.galaxybackup.com.  
   
-####Mission 5
+#### Mission 5
   
 Shortest Path from Batuu to Jedha:  
   
 Batuu, D, C, E, F, J, I, L, Q, T, V, Jedha  
   
-####Mission 6
+#### Mission 6
   
 Discovered IP and MAC addresses:  
 172.16.0.1  
 172.16.0.1  
 00:0f:66:e3:e4:01  
   
-####Mission 7
+#### Mission 7
   
 
