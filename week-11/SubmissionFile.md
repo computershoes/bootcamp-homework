@@ -358,7 +358,7 @@ Now, we will work on another lab. Before you start, complete the following revie
 
 4. What technology could provide law enforcement with the ability to track and recover a stolen laptop.
 
-   Answer: Device tracking software such as Absolute, Adeona, or Advatrack that can reveal the public IP that the thief is connecting from.
+   Answer: Device tracking software that can reveal the public IP that the thief is connecting from.
 
 5. How could you prevent an attacker from booting a stolen laptop using an external hard drive?
 
