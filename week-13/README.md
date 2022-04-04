@@ -36,7 +36,6 @@ The configuration details of each machine may be found below.
 | Web-02   |Web Server| 10.0.0.6   | Ubuntu Server    |
 | Web-03   |Web Server| 10.0.0.5   | Ubuntu Server    |
 |ELK-server|Network Monitoring|10.3.0.4|Ubuntu Server |
-|RedTeamLB |Load Balancer|20.219.151.222|Ubuntu Server|
 
 ### Access Policies
 
