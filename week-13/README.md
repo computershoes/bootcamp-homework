@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![Network Diagram](https://github.com/spodw/bootcamp-homework/blob/main/week-13/Images/project_1_diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select portions of the `filebeat-playbook.yml` and `metricbeat-playbook.yml` files may be used to install only certain pieces of them, such as Filebeat.
 
@@ -62,10 +62,8 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it saves time and ensures that everything is configured consitently time after time.
-- _TODO: What is the main advantage of automating configuration with Ansible?_
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - Download and install Docker
 - Download and install pip
 - Download and install Docker python module
@@ -74,7 +72,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![docker ps](https://github.com/spodw/bootcamp-homework/blob/main/week-13/Images/ELK_docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -87,7 +85,6 @@ This ELK server is configured to monitor the following machines:
 
 Filebeat and Metricbeat have been installed on these machines.
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
 - Filebeat collects and ships system logs. This information is used to monitor user activity and search for anomalies.
 - Metricbeat collects and ships system metrics. This information is used to monitor system performance and processes.
 
@@ -95,13 +92,10 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
-
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+- Copy the `ELK-playbook` file to `/etc/ansible`.
+- Update the `hosts` file to include:
+```bash
+[elk]
+10.3.0.4 ansible_python_interpreter=/usr/bin/python3
+```
+- Run the playbook, and navigate to http://<ELK-server-public-IP>/app/kibana in your workstation web browser to check that the installation worked as expected.
