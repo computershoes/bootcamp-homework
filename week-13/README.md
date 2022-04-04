@@ -97,4 +97,4 @@ SSH into the control node and follow the steps below:
 [elk]
 10.3.0.4 ansible_python_interpreter=/usr/bin/python3
 ```
-- Run the playbook, and navigate to http://<ELK-server-public-IP>/app/kibana in your workstation web browser to check that the installation worked as expected.
+- Run the playbook, and navigate to http://[ELK-server-public-IP]/app/kibana in your workstation web browser to check that the installation worked as expected.
