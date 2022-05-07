@@ -53,6 +53,6 @@ The vulnerability is a backdoor in vsftpd that was added to the download file by
   **2. Why is it dangerous:**  
 It is dangerous because it allows remote code execution as root.  
   **3. What mitigation strategies can you recommendations for the client to protect their server:**  
-The recommended mitigation strategy is to upgrade to a newer, patched version of vsftpd and samba.  
+The recommended mitigation strategy is to upgrade to a newer, patched version of vsftpd and samba and to set security rules to deny all incoming connections unless from whitelisted IPs.  
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
