@@ -24,7 +24,7 @@ Rackspace Backbone Engineering
 
 #### Step 3: Shodan
 
-- **What open ports and running services did Shodan find:**
+- **What open ports and running services did Shodan find:**  
 **Open Ports:** 53  
 **Services:** TCP and UDP  
 
