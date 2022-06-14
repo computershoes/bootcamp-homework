@@ -51,12 +51,12 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-|JumpBoxProvisioner| Yes          |   199.48.94.99       |
+|JumpBoxProvisioner| Yes          |   Workstation IP    |
 | Web-01   | No                  |   10.0.0.4           |
 | Web-02   | No                  |   10.0.0.4           |
 | Web-03   | No                  |   10.0.0.4           |
 |ELK-server| Yes                  |10.0.0.4 199.48.94.99|
-|RedTeamLB | Yes                  |   199.48.94.99       |
+|RedTeamLB | Yes                  |   Workstation IP     |
 
 ### Elk Configuration
 
