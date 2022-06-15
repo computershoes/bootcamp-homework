@@ -1,7 +1,7 @@
 ### Part 1
 1. Based on the signatures, it appears that the attacker was performing an account lockout denial of service attack.
-- Global mitigations: Disable account lockout. Only allow access to the server from trusted IPs.
-- User mitigations: Require Require multi factor authentication to access the server.
+  - Global mitigations: Disable account lockout. Only allow access to the server from trusted IPs.
+  - User mitigations: Require Require multi factor authentication to access the server.
 
 2. I would reccommend the same mitigations listed above in order to protect against account lockout DoS attacks.
 
