@@ -12,8 +12,8 @@ Nmap scan results reveal the below services and OS details:
 ```bash
 $ nmap -sV 192.168.1.110
 ```
-port scan img()[]
-
+![](https://raw.githubusercontent.com/spodw/bootcamp-homework/main/Final%20Project/Images/red%20team/nmap_target_1_port_scan.png)  
+  
 This scan identifies the services below as potential points of entry:
 - Target 1 
   - Port 22 - SSH
@@ -28,8 +28,8 @@ The following vulnerabilities were identified on the target:
   - **Security Misconfiguration** - The main config file ‘wp-config.php’ has not been properly secured. Attackers familiar with WordPress will look for the credentials hidden in this file. Also vulnerable to ‘wpscan’.
   - **Broken Access Control** - Python can be run as root using ‘sudo’ by user steven. This allows for privelege escalation.
 
-vuln scan img()[]
-
+![](https://raw.githubusercontent.com/spodw/bootcamp-homework/main/Final%20Project/Images/red%20team/nmap-vulners-scan.png)  
+  
 ### Exploitation
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
@@ -37,15 +37,15 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
   - `flag1.txt`: fc3fd58dcdad9ab23faca6e9a36e581c
     - **Exploit Used**
       - Password for SSH/Weak Password Policy
-      - Guessed weak password for user michael. After successful SSH authentication, discovered flag in the `/var/www/html directory.`
-img()[]
+      - Guessed weak password for user michael. After successful SSH authentication, discovered flag in the `/var/www/html directory.`  
+![](https://raw.githubusercontent.com/spodw/bootcamp-homework/main/Final%20Project/Images/red%20team/found_flag_1.png)  
   - `flag2.txt`: b9bbcb33e11b80be759c4e844862482d
     - **Exploit Used**
       - Password for SSH/Weak Password Policy
-      - Also found after achieving SSH authentication using the credentials for michael. Located in the `/var/www` directory.
-img()[]
+      - Also found after achieving SSH authentication using the credentials for michael. Located in the `/var/www` directory.  
+![](https://raw.githubusercontent.com/spodw/bootcamp-homework/main/Final%20Project/Images/red%20team/found_flag_2.png)  
   - `flag3.txt`: afc01ab56b50591e7dccf93122770cd2, `flag4.txt`: 715dea6c055b9fe3337544932f2941ce
     - **Exploit Used**
       - Security Misconfiguration
-      - Located the main WordPress config file in `/var/www/html/wordpress/wp-config.php` then used `cat` to view the MySQL credentials. Flags 3 and 4 were found within the SQL database.
-img()[]
+      - Located the main WordPress config file in `/var/www/html/wordpress/wp-config.php` then used `cat` to view the MySQL credentials. Flags 3 and 4 were found within the SQL database.  
+![](https://raw.githubusercontent.com/spodw/bootcamp-homework/main/Final%20Project/Images/red%20team/found_flag_3-4.png)  
