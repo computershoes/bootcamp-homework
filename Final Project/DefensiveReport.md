@@ -24,7 +24,7 @@ The following machines were identified on the network:
   - **Purpose:** Apache web server
   - **IP Address:** 192.168.1.110  
   
-![](https://raw.githubusercontent.com/spodw/bootcamp-homework/main/Final%20Project/Images/fp_network_diagram.drawio.png)  
+![](https://raw.githubusercontent.com/spodw/bootcamp-homework/main/Final%20Project/Images/fp_network_diagram.drawio1.png)  
 
 ### Description of Targets
 
