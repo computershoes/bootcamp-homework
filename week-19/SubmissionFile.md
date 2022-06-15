@@ -7,7 +7,7 @@
 
 ### Part 2
 1. Firewall rule: Block incoming traffic where the source IP is from Ukraine.  
-![Top 10 Countries]()
+![](https://raw.githubusercontent.com/spodw/bootcamp-homework/main/week-19/img/top10countries.png)
 
 2. Firewall rules:
   - Create whitelist that only allows IP addresses of people who need to log in to the VSI webserver.
