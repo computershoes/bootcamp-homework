@@ -38,10 +38,10 @@ Traffic to these services should be carefully monitored. To this end, we have im
 
 #### Excessive HTTP Errors
 Alert 1 is implemented as follows:
-  - **Metric:**: Top 5 HTTP response codes
-  - **Threshold:**: Above 400 for last 5 minutes
-  - **Vulnerability Mitigated:**:Brute force
-  - **Reliability:**: Medium. Good for detecting brute force attacks, but may cause false positives.  
+  - **Metric:** Top 5 HTTP response codes
+  - **Threshold:** Above 400 for last 5 minutes
+  - **Vulnerability Mitigated:** Brute force
+  - **Reliability:** Medium. Good for detecting brute force attacks, but may cause false positives.  
 ![](https://raw.githubusercontent.com/spodw/bootcamp-homework/main/Final%20Project/Images/blue%20team/excessive_http_errors.png)  
   
 #### HTTP Request Size Monitor
